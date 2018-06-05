@@ -12,12 +12,18 @@ const BUTCHER_PRODUCTS = [
 export class OlderCoaster extends React.Component {
   
   // this function should return the JSX we want the DOM to render
-  // render() {
-  //   return (
-  //     <div>Hello!</div>
-  //   )
-  // }
-  // 
+  render(){
+    return(
+      <div className="oldercoaster">
+  <p>Two grannies having the time of their life!</p>
+  <p>Passengers:</p>
+  <ul>
+    <li>Agnes</li>
+    <li>Muriel</li>
+  </ul>
+</div>
+    )
+  }
 }
 
 export class InFrontOfYou extends React.Component {
